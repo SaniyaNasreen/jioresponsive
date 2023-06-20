@@ -1,0 +1,130 @@
+
+
+/* .container-fluid {
+    background-color: rgb(15, 15, 15);
+    font-size:x-small;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-left: 30px;
+    height: 60px;
+    
+}
+.container-fluid img{
+  width: 30px;
+}
+  
+.navbar-brand{
+    padding-left: 10px;
+    font-size: medium;
+}
+.place{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size: small;
+    font-weight: 600;
+    padding-left: 15px;
+
+
+}
+.navbar-nav{
+  margin-top: 6px;
+}
+.d-flex img{
+  width: 10px;
+
+}
+.container-fluid2{
+    background-color: black;
+    height: 600px;
+    
+}
+  
+ .screenshot {
+  padding-left: 350px;
+  padding-top: 70px;
+ }
+   */
+
+   *{
+    font-family: Arial, Helvetica, sans-serif;
+
+   }
+   .image img{
+    width: 40px;
+   }
+   .image-fluid{
+    padding-left: 50px;
+   }
+ 
+   @media only screen and (max-width:789px) {
+    .text_box{
+      position: relative;
+      top: 300px;
+      color: aliceblue;
+    }
+   }
+.text h2{
+  font-weight: 600;
+}
+.box{
+  width: 177px;
+    height: 39px;
+    border-radius: 44px;
+    padding: 9px;
+    border: 2px solid;
+    padding-left: 17px;
+    margin-right: 15px;
+  
+}
+.box input{
+   border-color: black;
+  background-color:black;
+  border-radius: 20px;
+  border-style: solid;
+}
+.nav{
+  font-size: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+   
+}
+ 
+.d-flex{
+  font-size: 10px;
+   
+}
+.navbar-brand{
+  margin-left: 15px;
+}
+.nav-item{
+  margin-top: 7px;
+}
+.place{
+  width: 70px;
+   background-color: black; 
+   border-color: rgb(174, 130, 49);
+    border-radius: 15px; 
+    font-size: smaller; 
+    font-weight: 600; 
+    padding-left: 7px;
+     border-style: solid;
+     
+}
+.place1{
+  width: 60px;
+   height: 30px;
+    background-color: black; 
+    border-color: rgb(249, 248, 247); 
+    border-radius: 25px;
+   font-size: smaller;
+    font-weight: 600;
+     padding-left: 10px;
+      border-style: solid;
+      margin-top: -4px;
+       
+}
+@media only screen and (max-width:1456px){
+
+}

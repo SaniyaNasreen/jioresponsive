@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jio Cinema</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg pt-0 pb-0 bg-body-tertiary">
+      <div class="container-fluid" style="background-color: black; height: 70px; font-size: smaller; font-weight: 600;">
+        <img src="/pic/jc_logo.svg" alt="">
+        <a class="navbar-brand text-white" href="#">Jio Cinema</a>
+        <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link " aria-current="page" href="#">
+                <input class="place  hide-on-dropdown text-warning "   placeholder="Subscribe ">
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white " href="#">
+                <input class="place1 hide-on-dropdown "    placeholder="For You ">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-white">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-white">Free</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-white">Premium</a>
+            </li>
+          </ul>
+          <form class="d-flex "  role="search"  >
+            <div class="box bc-light" style="background-color: black; ">
+              <input class="place3 hide-on-dropdown" type="search" placeholder="Search"  >
+              <img src="/pic/Vector.svg" class="hide-on-dropdown">
+
+            </div>
+          </form>
+          <div class="image hide-on-dropdown">
+            <img src="/pic/profile_avatar.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script>
+      const dropdownToggle = document.querySelector(".navbar-toggler");
+      const inputFields = document.querySelectorAll(".hide-on-dropdown");
+    
+      dropdownToggle.addEventListener("click", function () {
+        inputFields.forEach((input) => {
+          input.classList.toggle("hidden");
+        });
+      });
+    </script>
+    
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>   
+        <div class="container-fluid mr-0 row w-100" style="background-color: black;height: 451px; margin: 0;">
+         <div class="col-md-6 text_box text-white">
+          <h3> Asur</h3>
+          <p class="para" style="font-size: small; color: rgb(141, 127, 127);">Hindhi Thriller U/A 16+</p>
+          <button class="wat" style="background-color: #D9008D; color: white; border-style: none; border-radius: 10px; width: 100px; height: 40px; font-size: small; font-weight: 600;padding-left: 20px;">WATCH</button>
+            
+         </div>    
+         <div class="container col-md-6 ">
+          <img src="/pic/Screenshot 2023-06-08 033115.png" class="img-fluid"  alt="...">
+       </div> 
+
+        </div> 
+        <div class="container-fluid mr-0 w-100 p-0" style="background-color: black;height: 350px; margin: 0;">
+           
+          <div class="container col-md-12  ">
+           <img src="/pic/bd-ewp-14x3-1686201934076.webp" class="img-fluid" style="border-radius: 10px;"  alt="...">
+        </div> 
+         </div>
+         <section class="" style="background-color: black;">
+          <div class="container-fluid">
+            <div class="text" >
+              <h5 style="color: #fff; font-weight: 600;">New Trending</h5>
+            </div>
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-7 g-4">
+              <div class="col">
+                <div class="card"  style="border-radius: 10px;">
+                  <img src="/pic/up-65-launch-3x4-1686160085539.webp" class="card-img-top" style="border-radius: 10px; border-style: none;"  alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="border-radius: 10px;">
+                  <img src="/pic/bhediya-3x4-2-1685029272951.jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="border-radius: 10px;">
+                  <img src="/pic/crackdown s2 - 3x4-1685464453077.avif" class="card-img-top" style="border-radius: 10px;" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="border-radius: 10px;">
+                  <img src="/pic/bloodydaddy-3x4-1686242921960.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="border-radius: 10px;">
+                  <img src="/pic/asur-2_launch-3x4-1686131349237 (1).webp" class="card-img-top"  style="border-radius: 10px;"alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="border-radius: 10px;">
+                  <img src="/pic/tillsaking_show_new-series_3x4-1683921514287 (1).jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+                </div>
+              </div>
+            
+              
+            </div>
+          </div>
+        </section>
+
+
+
+        <section class="pt-5" style="background-color: black;">
+         
+          <div class="container-fluid">
+            <div class="text">
+              <h5 style="color: #fff;font-weight: 600;">The Ultimate Line Up 🍿</h5>
+            </div>
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 row-cols-lg-6 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="/pic/rafuchakkar-teaser-3x4-1686217310391.webp" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/pic/iluuuuu-1686248381078.webp" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/pic/bbo_salman_3x4-1686131629596.webp" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/pic/gulaam-chor-3x4-1686243686068.webp" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/pic/timg-3x4-1685965287362.webp" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/pic/sanammerehumraz3x4-1685939104721.webp" class="card-img-top" alt="...">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="pt-5" style="background-color: black;">
+        <div class="container-fluid">
+          <div class="text">
+            <h5 style="color: #fff; font-weight: 600;">Trending in India</h5>
+          </div>
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-7 g-4">
+            <div class="col">
+              <div class="card"  style="border-radius: 10px;">
+                <img src="/pic/bloodydaddy-3x4-1686242921960.webp" class="card-img-top" style="border-radius: 10px; border-style: none;"  alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/asur-2_launch-3x4-1686131349237 (1).webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/big-brother-australia_new_season_3x4-1667459716716.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/up-65-launch-3x4-1686160085539.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/inspector-avinash-3x4-1685015257428.webp" class="card-img-top"  style="border-radius: 10px;"alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/tillsaking_show_new-series_3x4-1683921514287 (1).jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+          
+            
+          </div>
+        </div>
+      </section>
+      <section class="pt-5" style="background-color: black;">
+        <div class="container-fluid">
+          <div class="text">
+            <h5 style="color: #fff; font-weight: 600;">Top-Rated Originals 🌟</h5>
+          </div>
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-7 g-4">
+            <div class="col">
+              <div class="card"  style="border-radius: 10px;">
+                <img src="/pic/inspector-avinash-3x4-1685015257428.webp" class="card-img-top" style="border-radius: 10px; border-style: none;"  alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/crackdown s2 - 3x4-1685464453077.avif" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/up-65-launch-3x4-1686160085539.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/asur-2_launch-3x4-1686131349237 (1).webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/apharan-s02-3x4[92]-1683712251073.jpg" class="card-img-top"  style="border-radius: 10px;"alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/bmtd_3x4-1683712389842.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+          
+            
+          </div>
+        </div>
+      </section>
+      <section class="pt-5" style="background-color: black;">
+        <div class="container-fluid">
+          <div class="text">
+            <h5 style="color: #fff;font-weight: 600;">Top 100 Hollywood Shows</h5>
+          </div>
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-7 g-4">
+            <div class="col">
+              <div class="card"  style="border-radius: 10px;">
+                <img src="/pic/hod-1683950566513.webp" class="card-img-top" style="border-radius: 10px; border-style: none;"  alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/succession-3x4-1685338391141.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/the-last-of-us-3x4-1683984967746.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/shark-tank-s2_3x4[8105]-1684565838756.jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/crackdown s2 - 3x4-1685464453077.avif" class="card-img-top"  style="border-radius: 10px;"alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/got_3_4-1683938784910.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+          
+            
+          </div>
+        </div>
+      </section>
+      <section class="pt-5" style="background-color: black;">
+        <div class="container-fluid">
+          <div class="text">
+            <h5 style="color: #fff;font-weight: 600;">Popular Hindi Movies</h5>
+          </div>
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-7 g-4">
+            <div class="col">
+              <div class="card"  style="border-radius: 10px;">
+                <img src="pic/vv-1685258901135.jpg" class="card-img-top" style="border-radius: 10px; border-style: none;"  alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/bhediya-3x4-2-1685029272951.jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/rocketry-3x4-1683798968698.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/bloodydaddy-3x4-1686242921960.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/kacche-nimbu-3x4-1684483214408.webp" class="card-img-top"  style="border-radius: 10px;"alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/boo-3x4-1685527804591.jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+          
+            
+          </div>
+        </div>
+      </section> 
+      <section class="pt-5 h-auto" style="background-color: black; ">
+        <div class="container-fluid">
+          <div class="text">
+            <h5 style="color: #fff;">Biggest Reality Shows 🔥</h5>
+          </div>
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-7 g-4">
+            <div class="col">
+              <div class="card"  style="border-radius: 10px;">
+                <img src="/pic/bbo_salman_3x4-1686131629596.webp" class="card-img-top" style="border-radius: 10px; border-style: none;"  alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/roadies-3x4-1686054461583.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/masterchef3x4-1658397955875.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/shark-tank-s2_3x4[8105]-1684565838756.jpg" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/love-island-laid-bare-the-drop-3x4-1684925564928.webp" class="card-img-top"  style="border-radius: 10px;"alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border-radius: 10px;">
+                <img src="/pic/big-brother-australia_new_season_3x4-1667459716716.webp" class="card-img-top" style="border-radius: 10px;" alt="...">
+              </div>
+            </div>
+          
+            
+          </div>
+        </div>
+      </section>
+     
+        <footer class="pt-5" style="background-color: black;color: #fff; ">
+      <div class="container-fluid mt-4" style="background-color:rgba(22, 21, 21, 0.87);" >
+
+          <div class="row pt-5" >
+            <div class="col-6 col-md-2 mb-3">
+              <h6>Jio Cinema</h6>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2" ><a href="#" class="nav-link p-0 text-white"  >For You</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sports</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"> Free</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Premium</a></li>
+                
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h6>Support</h6>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Help Center</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white ">Terms Of Use</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Content Complaints</a></li>
+                 
+              </ul>
+            </div>
+             
+            
+      
+            
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between   border-top">
+            <p>Copyright © 2023 Viacom18 Media PVT LTD. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><img src="/pic/facebook.svg" alt=""></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><img src="/pic/instagram.svg" alt=""> </a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><img src="/pic/twitter.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+
+        </footer>
+       
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</body>
+</html>
